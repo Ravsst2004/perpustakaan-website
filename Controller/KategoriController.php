@@ -4,7 +4,22 @@
     function show_kategori($query) {
         global $conn;
         $result = mysqli_query($conn, $query);
-        return mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+        if ($result) {
+            $juduls = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+            foreach ($juduls as &$judul) {
+                if ($judul['status'] == 0) {
+                    $judul['status'] = "Tidak Tersedia";
+                } else {
+                    $judul['status'] = "Tersedia";
+                }
+            }
+
+            return $juduls;
+        }
+
+        return[];
     }
 
 ?>
