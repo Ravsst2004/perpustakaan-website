@@ -14,6 +14,8 @@ $juduls = show_judul("SELECT * FROM t_judul
 require_once 'template/header.php'
 ?>
 
+<h1>Tabel Judul</h1>
+
 <div class="table-responsive mt-3">
     <table class="table table-striped table-bordered">
         <thead>

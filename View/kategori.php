@@ -10,6 +10,8 @@ $kategories = show_kategori("SELECT * FROM t_kategori");
 require_once 'template/header.php'
 ?>
 
+<h1>Tabel Kategori</h1>
+
 <div class="table-responsive mt-3">
     <table class="table table-striped table-bordered">
         <thead>
