@@ -13,7 +13,7 @@ $detil_pengarangs = show_detil_pengarang("SELECT * FROM t_detil_pengarang
 require_once 'template/header.php'
 ?>
 
-<h1>Tabel Kategori</h1>
+<h1>Tabel Detil Pengarang</h1>
 
 <div class="table-responsive mt-3">
     <table class="table table-striped table-bordered">

@@ -13,7 +13,7 @@ $bukus = show_buku("SELECT * FROM t_buku
 require_once 'template/header.php'
 ?>
 
-<h1>Tabel Kategori</h1>
+<h1>Tabel Buku</h1>
 
 <div class="table-responsive mt-3">
     <table class="table table-striped table-bordered">

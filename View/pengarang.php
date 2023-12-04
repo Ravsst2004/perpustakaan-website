@@ -10,7 +10,7 @@ $pengarangs = show_pengarang("SELECT * FROM t_pengarang");
 require_once 'template/header.php'
 ?>
 
-<h1>Tabel Kategori</h1>
+<h1>Tabel Pengarang</h1>
 
 <div class="table-responsive mt-3">
     <table class="table table-striped table-bordered">
