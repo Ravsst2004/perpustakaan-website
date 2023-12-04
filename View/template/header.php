@@ -51,6 +51,7 @@
                                 <li><a class="dropdown-item" href="./buku.php">Buku</a></li>
                                 <li><a class="dropdown-item" href="./penerbit.php">Penerbit</a></li>
                                 <li><a class="dropdown-item" href="./pengarang.php">Pengarang</a></li>
+                                <li><a class="dropdown-item" href="./detil_pengarang.php">Detil Pengarang</a></li>
                             </ul>
                         </li>
                     </ul>
