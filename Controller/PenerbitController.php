@@ -6,17 +6,17 @@
         $result = mysqli_query($conn, $query);
 
         if ($result) {
-            $juduls = mysqli_fetch_all($result, MYSQLI_ASSOC);
+            $penerbits = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-            foreach ($juduls as &$judul) {
-                if ($judul['status'] == 0) {
-                    $judul['status'] = "Tidak Tersedia";
+            foreach ($penerbits as &$penerbit) {
+                if ($penerbit['status'] == 0) {
+                    $penerbit['status'] = "Tidak Tersedia";
                 } else {
-                    $judul['status'] = "Tersedia";
+                    $penerbit['status'] = "Tersedia";
                 }
             }
 
-            return $juduls;
+            return $penerbits;
         }
 
         return[];
