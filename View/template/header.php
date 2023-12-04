@@ -49,6 +49,7 @@
                                 <li><a class="dropdown-item" href="./judul.php">Judul</a></li>
                                 <li><a class="dropdown-item" href="./kategori.php">Kategori</a></li>
                                 <li><a class="dropdown-item" href="./buku.php">Buku</a></li>
+                                <li><a class="dropdown-item" href="./penerbit.php">Penerbit</a></li>
                             </ul>
                         </li>
                     </ul>
