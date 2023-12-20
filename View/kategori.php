@@ -22,14 +22,12 @@ require_once 'template/header.php'
             </tr>
         </thead>
         <tbody>
-            <?php $i =  1; ?>
             <?php foreach ($kategories as $kategori) : ?>
                 <tr>
                     <td><?= $kategori["id_kategori"] ?></td>
                     <td><?= $kategori["kategori"] ?></td>
                     <td><?= $kategori["status"] ?></td>
                 </tr>
-                <?php $i++ ?>
             <?php endforeach ?>
         </tbody>
     </table>

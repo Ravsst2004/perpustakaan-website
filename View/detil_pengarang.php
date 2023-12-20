@@ -26,7 +26,6 @@ require_once 'template/header.php'
             </tr>
         </thead>
         <tbody>
-            <?php $i =  1; ?>
             <?php foreach ($detil_pengarangs as $detil_pengarang) : ?>
                 <tr>
                     <td><?= $detil_pengarang["judul"] ?></td>
@@ -34,7 +33,7 @@ require_once 'template/header.php'
                     <td><?= $detil_pengarang["tgl_input"] ?></td>
                     <td><?= $detil_pengarang["status"] ?></td>
                 </tr>
-                <?php $i++ ?>
+
             <?php endforeach ?>
         </tbody>
     </table>

@@ -27,7 +27,6 @@ require_once 'template/header.php'
             </tr>
         </thead>
         <tbody>
-            <?php $i =  1; ?>
             <?php foreach ($penerbits as $penerbit) : ?>
                 <tr>
                     <td><?= $penerbit["id_penerbit"] ?></td>
@@ -39,7 +38,6 @@ require_once 'template/header.php'
                     <td><?= $penerbit["email"] ?></td>
                     <td><?= $penerbit["status"] ?></td>
                 </tr>
-                <?php $i++ ?>
             <?php endforeach ?>
         </tbody>
     </table>

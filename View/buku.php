@@ -27,7 +27,6 @@ require_once 'template/header.php'
             </tr>
         </thead>
         <tbody>
-            <?php $i =  1; ?>
             <?php foreach ($bukus as $buku) : ?>
                 <tr>
                     <td><?= $buku["id_buku"] ?></td>
@@ -36,7 +35,6 @@ require_once 'template/header.php'
                     <td><?= $buku["tgl_input"] ?></td>
                     <td><?= $buku["status"] ?></td>
                 </tr>
-                <?php $i++ ?>
             <?php endforeach ?>
         </tbody>
     </table>

@@ -26,7 +26,6 @@ require_once 'template/header.php'
             </tr>
         </thead>
         <tbody>
-            <?php $i =  1; ?>
             <?php foreach ($pengarangs as $pengarang) : ?>
                 <tr>
                     <td><?= $pengarang["id_pengarang"] ?></td>
@@ -37,7 +36,6 @@ require_once 'template/header.php'
                     <td><?= $pengarang["status"] ?></td>
                     <td><?= $pengarang["foto"] ?></td>
                 </tr>
-                <?php $i++ ?>
             <?php endforeach ?>
         </tbody>
     </table>

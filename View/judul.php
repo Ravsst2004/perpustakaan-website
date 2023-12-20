@@ -28,7 +28,6 @@ require_once 'template/header.php'
             </tr>
         </thead>
         <tbody>
-            <?php $i =  1; ?>
             <?php foreach ($juduls as $judul) : ?>
                 <tr>
                     <td><?= $judul["id_judul"] ?></td>
@@ -37,7 +36,6 @@ require_once 'template/header.php'
                     <td><?= $judul["status"] ?></td>
                     <td><?= $judul["nama"] ?></td>
                 </tr>
-                <?php $i++ ?>
             <?php endforeach ?>
         </tbody>
     </table>
