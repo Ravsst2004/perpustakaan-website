@@ -12,6 +12,8 @@ require_once 'template/header.php'
 
 <h1>Tabel Penerbit</h1>
 
+<a href="./form/add_penerbit.php">Tambah Penerbit</a>
+
 <div class="table-responsive mt-3">
     <table class="table table-striped table-bordered">
         <thead>
